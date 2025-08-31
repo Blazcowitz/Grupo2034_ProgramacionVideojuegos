@@ -52,7 +52,7 @@ Comparto las capturas de pantalla que muestran el inicio del trabajo colaborativ
 
 # German Pachon
 
-![Mi foto](GermanPachon/foto.jpg)
+![foto.png](GermanPachon/foto.png)
 
 
 **Rol:** Desarrollador de videojuegos  
