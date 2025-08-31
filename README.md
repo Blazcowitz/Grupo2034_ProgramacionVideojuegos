@@ -52,7 +52,8 @@ Comparto las capturas de pantalla que muestran el inicio del trabajo colaborativ
 
 # German Pachon
 
-![Mi foto](German Pachon/foto.jpg)
+![Mi foto](GermanPachon/foto.jpg)
+
 
 **Rol:** Desarrollador de videojuegos  
 **Ubicación:** Bogotá, Colombia  
