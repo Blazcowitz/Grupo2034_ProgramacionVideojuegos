@@ -33,10 +33,9 @@ Este proyecto consiste en la documentación y presentación de la receta tradici
 
 ## Información del Equipo
 
-| Nombre             | Rol                 | Ubicación | Comentario Personal                |
-|--------------------|---------------------|-----------|----------------------------------|
-| Andrés Tenjo       | Diseñador de Sonido  | España    | Me encanta la pizza               |
-| [Tu Nombre Aquí]    | [Tu Rol Aquí]        | [Tu Ciudad] | Me gusta cocinar y aprender código |
+| Nombre        | Rol                       | Ubicación | Comentario personal                  |
+|---------------|---------------------------|-----------|------------------------------------|
+| German Pachon | Desarrollador de videojuegos | Bogotá    | Me gusta cocinar y aprender código |
 
 ---
 
@@ -50,3 +49,12 @@ Este proyecto consiste en la documentación y presentación de la receta tradici
 ## Evidencia de la Actividad
 
 Comparto las capturas de pantalla que muestran el inicio del trabajo colaborativo, el reconocimiento del entorno virtual y la conformación del equipo.
+
+# German Pachon
+
+![Mi foto](German Pachon/foto.jpg)
+
+**Rol:** Desarrollador de videojuegos  
+**Ubicación:** Bogotá, Colombia  
+**Perfil:** Apasionado por la programación y el desarrollo de videojuegos, me gusta trabajar en equipo y aprender nuevas tecnologías.
+
