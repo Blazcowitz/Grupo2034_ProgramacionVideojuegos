@@ -1,0 +1,51 @@
+# === Archivos de Visual Studio ===
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === Archivos de compilación ===
+bin/
+obj/
+out/
+
+# === Archivos de paquetes NuGet ===
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+*.nuspec
+
+# === Archivos de configuración local ===
+*.dbmdl
+*.pdb
+*.cache
+*.log
+
+# === Archivos temporales del sistema ===
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# === Archivos de configuración del entorno ===
+.env
+*.env
+
+# === Otros ===
+*.vspscc
+*.vssscc
+TestResults/
+__pycache__/
+.idea/
+*.iml
+
+# === Carpetas específicas de Unity o videojuegos (opcional) ===
+Library/
+Temp/
+Build/
+Logs/
+MemoryCaptures/
+*.unitypackage
