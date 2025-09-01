@@ -2,7 +2,7 @@
 
 ## Erick Santiago Narváez Garzón
 
-![Foto Personal](erick/fotop.jpg)
+![Foto Personal](fotop.jpg)
 
 - **Rol en la industria**: Estudiante y diseñador Web comercial
 - **Ubicacion**: Bogota, Colombia
