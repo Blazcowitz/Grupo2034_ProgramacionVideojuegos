@@ -1,4 +1,3 @@
-
 # Grupo2034_ProgramacionVideojuegos
 
 ## Camilo Huertas Rueda
@@ -13,25 +12,20 @@
 
 # Proyecto: Arroz con Pollo - Receta y Datos del Equipo
 
-## Descripción del Proyecto
-Este proyecto consiste en la documentación y presentación de la receta tradicional del Arroz con Pollo, junto con la información de los miembros del equipo que participan en este trabajo colaborativo.
 
----
+## Erick Santiago Narváez Garzón
 
-## Receta: Arroz con Pollo
+![Foto Personal](fotop.png)
 
-### Ingredientes:
-- 2 tazas de arroz
-- 1 pollo entero cortado en presas
-- 1 cebolla picada
-- 2 dientes de ajo picados
-- 1 pimiento rojo picado
-- 1 tomate grande picado
-- 1 taza de guisantes
-- 1 zanahoria cortada en cubos
-- 4 tazas de caldo de pollo
-- Aceite, sal, pimienta y comino al gusto
+- **Rol en la industria**: Estudiante y diseñador Web comercial
+- **Ubicacion**: Bogota, Colombia
+- **Perfil breve**: Actualmente soy estudiante de ingenieria multimedia, parcialmente trabajo diseñando paginas web comerciales y en el apartado de marketing, me gusta la tranquilidad asi como la constancia en los labores, me gustan las actividades al aire libre y explorar hobbies.
 
+## Plato Favorito
+
+![Fotoplato](lasaña.png) 
+
+=======
 ### Preparación:
 1. En una olla grande, calienta aceite y sofríe la cebolla, el ajo y el pimiento hasta que estén dorados.
 2. Agrega el pollo y cocina hasta que esté dorado por todos lados.
@@ -86,4 +80,6 @@ Actualmente vivo en España y estudio Ingeniería Multimedia, además me encanta
 Mi comida favorita es: La pizza.
 
 ![Amo la pizza](AndresTenjo/Pizza.jpg)
+
+
 
