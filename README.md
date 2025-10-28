@@ -1,3 +1,47 @@
+# 🎮 Unity 2D Game — Alien Array
+
+Este es un juego 2D creado en Unity donde controlas a un personaje que debe sobrevivir enfrentando enemigos, evitando zonas de peligro y lanzando proyectiles para defenderse.
+
+---
+
+## 🚀 Características
+
+- Sistema de vidas con barra de salud dinámica
+- Enemigos que causan daño por contacto
+- Zonas de peligro que afectan al jugador
+- Proyectiles que dañan enemigos
+- Reinicio automático del nivel al morir
+
+---
+
+## 🎮 Controles
+
+| Acción      | Tecla        |
+|-------------|--------------|
+| Moverse     | Flechas o WASD |
+| Saltar      | Espacio      |
+| Disparar    | F            |
+
+---
+
+## 🛠️ Requisitos
+
+- Unity 2021.3 o superior
+- Sistema de entrada: **Input System Package (New)** activado
+- Git instalado (opcional para contribuciones)
+
+---
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+
+
+Tarea 1
+
 # Grupo2034_ProgramacionVideojuegos
 
 ## Daniel Andres Castro Silva
