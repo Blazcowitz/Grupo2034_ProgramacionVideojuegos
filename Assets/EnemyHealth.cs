@@ -2,27 +2,28 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth = 3;
-    private int currentHealth;
+    public int health = 5;
 
-    void Start()
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        currentHealth = maxHealth;
-    }
+        Debug.Log("Enemigo tocado por: " + collision.name + " | Tag: " + collision.tag);
 
-    public void TakeDamage(int amount)
-    {
-        currentHealth -= amount;
-
-        if (currentHealth <= 0)
+        if (collision.CompareTag("PlayerProjectile"))
         {
-            Die();
+            TakeDamage();
+            Destroy(collision.gameObject);
         }
     }
 
-    void Die()
+    public void TakeDamage()
     {
-        Destroy(gameObject); // Elimina al enemigo
+        health--;
+        Debug.Log("Enemigo recibió daño. Vida restante: " + health);
+
+        if (health <= 0)
+        {
+            Debug.Log("¡Enemigo destruido por vida = 0!");
+            Destroy(gameObject);
+        }
     }
 }
-

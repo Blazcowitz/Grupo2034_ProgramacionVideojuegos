@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c32665ebf031608419e99b2bdddb174a
+guid: b91e7d9651b9a754ea1ec4c2bda0c033
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3179921065330440163
-    second: bloodied_sword_0
+      213: 6923188316897733977
+    second: salto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bloodied_sword_0
+      name: salto_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 28
-        height: 30
+        x: 28
+        y: 14
+        width: 77
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d18823793a6aed3d0800000000000000
-      internalID: -3179921065330440163
+      spriteID: 95de2d5f71b141060800000000000000
+      internalID: 6923188316897733977
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f9cf3cb75822e044fbf0e7163db2cdcc
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bloodied_sword_0: -3179921065330440163
+      salto_0: 6923188316897733977
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

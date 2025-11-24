@@ -12,6 +12,10 @@ public class PlayerHealth : MonoBehaviour
     public Slider healthBar;         // Asigna el Slider en el Inspector
     public Image fillImage;          // Asigna el objeto Fill del Slider
 
+    [Header("Audio")]
+    public AudioClip damageSound;    // ?? Clip de daño (asignar en Inspector)
+    private AudioSource audioSource; // ?? Componente de audio
+
     void Start()
     {
         currentLives = maxLives;
@@ -23,6 +27,9 @@ public class PlayerHealth : MonoBehaviour
         }
 
         UpdateFillColor();
+
+        // Inicializar AudioSource
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void TakeDamage()
@@ -35,6 +42,13 @@ public class PlayerHealth : MonoBehaviour
         }
 
         UpdateFillColor();
+
+        // ?? Reproducir sonido de daño cada vez que se recibe daño
+        if (damageSound != null)
+        {
+            // Usamos PlayClipAtPoint para asegurar que siempre suene
+            AudioSource.PlayClipAtPoint(damageSound, transform.position, 1f);
+        }
 
         if (currentLives <= 0)
         {
@@ -59,6 +73,17 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("¡Game Over!");
+
+        // ?? Sonido final de daño antes de reiniciar
+        if (damageSound != null)
+            AudioSource.PlayClipAtPoint(damageSound, transform.position, 1f);
+
+        // Retraso para que el sonido se escuche antes de reiniciar
+        Invoke(nameof(ReloadScene), 0.5f);
+    }
+
+    void ReloadScene()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reinicia la escena actual
     }
 
@@ -67,5 +92,3 @@ public class PlayerHealth : MonoBehaviour
         return currentLives;
     }
 }
-
-

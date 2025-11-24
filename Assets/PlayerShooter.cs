@@ -1,12 +1,15 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerShooter : MonoBehaviour
 {
     public GameObject projectilePrefab;
-    public Transform firePoint;
     public float projectileSpeed = 10f;
+    public AudioClip throwSound;
 
     private PlayerControls controls;
+    private SpriteRenderer spriteRenderer;
+    private AudioSource audioSource;
 
     void Awake()
     {
@@ -16,20 +19,37 @@ public class PlayerShooter : MonoBehaviour
 
     void OnEnable()
     {
-        controls.Enable();
+        if (controls != null)
+            controls.Gameplay.Enable();
     }
 
     void OnDisable()
     {
-        controls.Disable();
+        if (controls != null)
+            controls.Gameplay.Disable();
+    }
+
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Shoot()
     {
-        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-        rb.linearVelocity = transform.right * projectileSpeed;
+        if (throwSound != null && audioSource != null)
+            audioSource.PlayOneShot(throwSound);
+
+        if (projectilePrefab == null) return;
+
+        GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        Rigidbody2D rbProjectile = projectile.GetComponent<Rigidbody2D>();
+
+        float direction = spriteRenderer != null && spriteRenderer.flipX ? -1f : 1f;
+
+        if (rbProjectile != null)
+            rbProjectile.linearVelocity = new Vector2(direction * projectileSpeed, 0f);
+
+        projectile.transform.localScale = new Vector3(direction, 1f, 1f);
     }
 }
-
-
