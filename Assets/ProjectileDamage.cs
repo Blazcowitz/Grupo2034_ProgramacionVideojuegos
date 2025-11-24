@@ -2,20 +2,16 @@ using UnityEngine;
 
 public class ProjectileDamage : MonoBehaviour
 {
-    public int damage = 1;
-
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy"))
         {
-            EnemyHealth enemy = other.GetComponent<EnemyHealth>();
-            if (enemy != null)
+            EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
             {
-                enemy.TakeDamage(damage);
+                enemyHealth.TakeDamage(); // ahora es público
             }
-
-            Destroy(gameObject); // Destruye el proyectil al impactar
+            Destroy(gameObject);
         }
     }
 }
-
