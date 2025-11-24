@@ -7,15 +7,17 @@ TagManager:
   - Ground
   - Obstacle
   - Enemy
+  - PlayerProjectile
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
-  - 
-  - 
+  - EnemyProjectile
+  - Obstacle
   - 
   - 
   - 
