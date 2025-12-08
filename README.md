@@ -1,5 +1,57 @@
+# 🎮 Unity 2D Game — Alien Array
+
+Este es un juego 2D creado en Unity donde controlas a un personaje que debe sobrevivir enfrentando enemigos, evitando zonas de peligro y lanzando proyectiles para defenderse.
+
+---
+
+## 🚀 Características
+
+- Sistema de vidas con barra de salud dinámica
+- Enemigos que causan daño por contacto
+- Zonas de peligro que afectan al jugador
+- Proyectiles que dañan enemigos
+- Reinicio automático del nivel al morir
+
+---
+
+## 🎮 Controles
+
+| Acción      | Tecla        |
+|-------------|--------------|
+| Moverse     | Flechas o WASD |
+| Saltar      | Espacio      |
+| Disparar    | F            |
+
+---
+
+## 🛠️ Requisitos
+
+- Unity 2021.3 o superior
+- Sistema de entrada: **Input System Package (New)** activado
+- Git instalado (opcional para contribuciones)
+
+---
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+
+
+Tarea 1
 
 # Grupo2034_ProgramacionVideojuegos
+
+## Daniel Andres Castro Silva
+
+![Foto Personal](https://github.com/user-attachments/assets/78d012bd-deb8-4a7e-814b-f6ba9d9840bb)
+
+
+- **Rol en la industria**: Marketing, Creacion de Contenido
+- **Ubicacion**: Bogota, Colombia
+- **Perfil breve**: Actualmente soy editor de video, en una de las universidades virtuales más grandes del mundo, consiguiente soy estudiante de Ingieneria Multimedia. Me gusta la creacion de contenido, los videojuegos, las peliculas, la fotografia, y el gym.
 
 ## Camilo Huertas Rueda
 
@@ -13,25 +65,20 @@
 
 # Proyecto: Arroz con Pollo - Receta y Datos del Equipo
 
-## Descripción del Proyecto
-Este proyecto consiste en la documentación y presentación de la receta tradicional del Arroz con Pollo, junto con la información de los miembros del equipo que participan en este trabajo colaborativo.
 
----
+## Erick Santiago Narváez Garzón
 
-## Receta: Arroz con Pollo
+![Foto Personal](fotop.png)
 
-### Ingredientes:
-- 2 tazas de arroz
-- 1 pollo entero cortado en presas
-- 1 cebolla picada
-- 2 dientes de ajo picados
-- 1 pimiento rojo picado
-- 1 tomate grande picado
-- 1 taza de guisantes
-- 1 zanahoria cortada en cubos
-- 4 tazas de caldo de pollo
-- Aceite, sal, pimienta y comino al gusto
+- **Rol en la industria**: Estudiante y diseñador Web comercial
+- **Ubicacion**: Bogota, Colombia
+- **Perfil breve**: Actualmente soy estudiante de ingenieria multimedia, parcialmente trabajo diseñando paginas web comerciales y en el apartado de marketing, me gusta la tranquilidad asi como la constancia en los labores, me gustan las actividades al aire libre y explorar hobbies.
 
+## Plato Favorito
+
+![Fotoplato](lasaña.png) 
+
+=======
 ### Preparación:
 1. En una olla grande, calienta aceite y sofríe la cebolla, el ajo y el pimiento hasta que estén dorados.
 2. Agrega el pollo y cocina hasta que esté dorado por todos lados.
