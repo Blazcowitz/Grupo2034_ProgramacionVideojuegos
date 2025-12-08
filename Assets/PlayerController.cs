@@ -44,10 +44,9 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // ? Usar linearVelocity como recomienda Unity
+      
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
 
-        // ?? Sonido de correr en loop mientras se mueve
         if (isGrounded && Mathf.Abs(moveInput.x) > 0.1f)
         {
             if (!audioSource.isPlaying || audioSource.clip != runSound)
@@ -66,11 +65,11 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // ? Actualizar parámetros del Animator
+
         animator.SetFloat("Speed", Mathf.Abs(moveInput.x));
         animator.SetBool("isGrounded", isGrounded);
 
-        // ? Voltear sprite según dirección
+        //sprite según dirección
         if (moveInput.x != 0)
         {
             spriteRenderer.flipX = moveInput.x < 0;

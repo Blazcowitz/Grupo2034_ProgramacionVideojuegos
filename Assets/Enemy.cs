@@ -12,12 +12,15 @@ public class Enemy : MonoBehaviour
     public GameObject projectilePrefab;
     public Transform firePoint;
     public float projectileSpeed = 10f;
-    public float shootCooldown = 0.5f; // tiempo mínimo entre disparos
+    public float shootCooldown = 0.5f;
     private float lastShootTime = -999f;
 
     [Header("Audio")]
     public AudioClip shootSound;
     private AudioSource audioSource;
+
+    [Header("Estado")]
+    public bool isDefeated = false; // bandera para detener al morir
 
     void Start()
     {
@@ -27,6 +30,8 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (isDefeated) return; // si está derrotado, no se mueve ni dispara
+
         MoveUpDown();
 
         if (IsNearBottom() && Time.time > lastShootTime + shootCooldown)
