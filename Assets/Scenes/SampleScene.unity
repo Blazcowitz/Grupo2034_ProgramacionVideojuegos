@@ -1118,11 +1118,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   moveSpeed: 2
   moveRange: 3
-  projectilePrefab: {fileID: 4049577059627332574, guid: 625b02bcd4451e3438c597addbfc846a, type: 3}
+  projectilePrefab: {fileID: 758688870531072412, guid: a66a14142dc0b2f44baa93911c05ae55, type: 3}
   firePoint: {fileID: 95113691}
   projectileSpeed: 5
   shootCooldown: 0.5
   shootSound: {fileID: 8300000, guid: c9e1a8de056b1b141aeef9de9ea8a860, type: 3}
+  isDefeated: 0
 --- !u!50 &881854245
 Rigidbody2D:
   serializedVersion: 5
@@ -1175,6 +1176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   health: 3
+  defeatedSprite: {fileID: -9134236791127537330, guid: d6e3211fa8a614045b584b0f5502c955, type: 3}
 --- !u!82 &881854248
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1301,6 +1303,7 @@ GameObject:
   - component: {fileID: 945017357}
   - component: {fileID: 945017358}
   - component: {fileID: 945017359}
+  - component: {fileID: 945017362}
   - component: {fileID: 945017360}
   - component: {fileID: 945017361}
   m_Layer: 0
@@ -1625,6 +1628,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &945017362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945017352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8dd66bbaa715a04297c458866871708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NextLevelOnExit
+  nextScene: Level2
 --- !u!1 &978087196
 GameObject:
   m_ObjectHideFlags: 0
